@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> this is a wireframe design of the leaderboard project
 
 **[LEADERBOARD]**
 -This project is a leaderboard project
@@ -46,7 +46,7 @@
 -Css
 -Javascript
 
-# [Live Demo](https://daniel-kigozi.github.io/todo-wepack/)
+# [Live Demo](#)
 
 <details>
   <summary>Client</summary>
@@ -73,14 +73,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> takes in user Input
 
 - **[key_feature_1]**
   -Home page
 - **[key_feature_2]**
 - **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +123,7 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> This is a solo Project.
 
 👤 **Author1**
 
@@ -140,11 +138,10 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[styling]**
+- [ ] **[dynamically_adding_the_result]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
