@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lead {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.recent-score {
+  /* width: 100%; */
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.refresh {
+  display: flex;
+  justify-content: center;
+}
+
+.refresh h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-right: 50px;
+}
+
+.refresh button {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 0 40px;
+  margin: 7px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 2px;
+  border: 1px solid #000;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.list-item ul {
+  list-style: none;
+  margin-left: 2px;
+}
+
+.list-item li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+/* make the even list background different color */
+
+.list-item li:nth-child(even) {
+  background-color: #8f8c8c;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 200px;
+}
+
+.add-score h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.add-score input {
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 8px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 20px 0;
+}
+
+.btnsubmit {
+  padding: 10px 20px;
+  float: right;
+  border-radius: 5px;
+  margin-top: 20px;
+}
