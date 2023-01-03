@@ -13,10 +13,6 @@
   margin-bottom: 50px;
 }
 
-.recent-score {
-  /* width: 100%; */
-}
-
 .score {
   display: flex;
   justify-content: space-between;
