@@ -5,8 +5,8 @@
 }
 
 .lead {
-  font-size: 2.5rem;
-  font-weight: 300;
+  font-size: 3.5rem;
+  font-weight: 700;
   line-height: 1.5;
   margin-left: 50px;
   margin-top: 50px;
@@ -17,16 +17,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  margin: 150px;
 }
 
 .refresh {
   display: flex;
   justify-content: center;
+  width: 850px;
 }
 
 .refresh h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.5;
   margin-right: 50px;
@@ -40,6 +42,8 @@
 .btn {
   padding: 0 40px;
   margin: 7px;
+  border-radius: 5px;
+  font-size: 3rem;
 }
 
 .list-item {
@@ -48,6 +52,7 @@
   padding: 10px 2px;
   border: 1px solid #000;
   margin: 20px;
+  list-style: none;
   border-radius: 5px;
 }
 
@@ -58,11 +63,9 @@
 
 .list-item li {
   margin: 10px 0;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   padding: 5px;
 }
-
-/* make the even list background different color */
 
 .list-item li:nth-child(even) {
   background-color: #8f8c8c;
@@ -77,25 +80,30 @@
 }
 
 .add-score h2 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
 .add-score input {
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.5;
   padding: 8px;
   border-radius: 5px;
-  width: 300px;
+  width: 450px;
   margin: 20px 0;
 }
 
 .btnsubmit {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   float: right;
   border-radius: 5px;
   margin-top: 20px;
+}
+
+form .btnsubmit {
+  padding: 10px 20px;
+  width: 120px;
 }
