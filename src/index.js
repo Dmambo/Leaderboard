@@ -7,9 +7,9 @@ const refresh = document.getElementById('btn');
 const name = document.getElementById('Name');
 const score = document.getElementById('Score');
 
-console.log(refresh);
 const submit = document.querySelector('.btnsubmit');
 
+// eslint-disable-next-line operator-linebreak
 const url =
   'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/4VEGe50cX5o9oalxLylU/scores/';
 
@@ -22,14 +22,12 @@ const display = (data) => {
       li.innerHTML = `${item.user}: ${item.score}`;
       list.appendChild(li);
     });
-  } else {
-    li.innerHTML = `input data`;
   }
 };
 
 refresh.addEventListener('click', async () => {
   const data = await getData(url);
-  console.log(data);
+
   display(data);
 });
 

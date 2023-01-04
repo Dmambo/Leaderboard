@@ -12,7 +12,6 @@ const getData = async (url) => {
     const data = await response.json();
     return data.result;
   } catch (error) {
-    console.error(error);
     return error;
   }
 };

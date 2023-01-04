@@ -17,7 +17,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-left: 50px; */
   margin: 150px;
 }
 
@@ -97,7 +96,6 @@
 }
 
 .btnsubmit {
-  /* padding: 10px 20px; */
   float: right;
   border-radius: 5px;
   margin-top: 20px;
