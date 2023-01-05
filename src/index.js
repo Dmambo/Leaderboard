@@ -17,6 +17,7 @@ const display = (data) => {
   const list = document.querySelector('.list-item');
 
   if (Array.isArray(data) && list) {
+    list.innerHTML = '';
     data.forEach((item) => {
       const li = document.createElement('li');
       li.innerHTML = `${item.user}: ${item.score}`;
@@ -28,6 +29,11 @@ const display = (data) => {
 refresh.addEventListener('click', async () => {
   const data = await getData(url);
 
+  // Clear the contents of the element where the data is being displayed
+  const container = document.querySelector('.data-container');
+  if (container) {
+    container.innerHTML = '';
+  }
   display(data);
 });
 
@@ -42,7 +48,7 @@ submit.addEventListener('click', () => {
   score.value = '';
 });
 
-// window.onload = async () => {
-//   const data = await getData(url);
-//   display(data);
-// };
+window.onload = async () => {
+  const data = await getData(url);
+  display(data);
+};
