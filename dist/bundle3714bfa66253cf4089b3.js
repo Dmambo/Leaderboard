@@ -46,9 +46,8 @@ var getData = /*#__PURE__*/function () {
         case 12:
           _context.prev = 12;
           _context.t0 = _context["catch"](0);
-          console.error(_context.t0);
           return _context.abrupt("return", _context.t0);
-        case 16:
+        case 15:
         case "end":
           return _context.stop();
       }
@@ -103,17 +102,16 @@ var postData = /*#__PURE__*/function () {
           return response.json();
         case 8:
           responseData = _context.sent;
-          console.log(responseData);
           return _context.abrupt("return", responseData);
-        case 13:
-          _context.prev = 13;
+        case 12:
+          _context.prev = 12;
           _context.t0 = _context["catch"](0);
           return _context.abrupt("return", _context.t0);
-        case 16:
+        case 15:
         case "end":
           return _context.stop();
       }
-    }, _callee, null, [[0, 13]]);
+    }, _callee, null, [[0, 12]]);
   }));
   return function postData(_x, _x2) {
     return _ref.apply(this, arguments);
@@ -142,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n.lead {\n  font-size: 2.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-left: 50px;\n  margin-top: 50px;\n  margin-bottom: 50px;\n}\n\n.score {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-left: 50px;\n}\n\n.refresh {\n  display: flex;\n  justify-content: center;\n}\n\n.refresh h2 {\n  font-size: 3rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-right: 50px;\n}\n\n.refresh button {\n  cursor: pointer;\n  border-radius: 5px;\n}\n\n.btn {\n  padding: 0 40px;\n  margin: 7px;\n}\n\n.list-item {\n  display: flex;\n  flex-direction: column;\n  padding: 10px 2px;\n  border: 1px solid #000;\n  margin: 20px;\n  list-style: none;\n  border-radius: 5px;\n}\n\n.list-item ul {\n  list-style: none;\n  margin-left: 2px;\n}\n\n.list-item li {\n  margin: 10px 0;\n  font-size: 1.2rem;\n  padding: 5px;\n}\n\n.list-item li:nth-child(even) {\n  background-color: #8f8c8c;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 50px 200px;\n}\n\n.add-score h2 {\n  font-size: 2.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-bottom: 20px;\n}\n\n.add-score input {\n  font-size: 0.8rem;\n  font-weight: 300;\n  line-height: 1.5;\n  padding: 8px;\n  border-radius: 5px;\n  width: 300px;\n  margin: 20px 0;\n}\n\n.btnsubmit {\n  padding: 10px 20px;\n  float: right;\n  border-radius: 5px;\n  margin-top: 20px;\n  width: 50px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,WAAW;AACb;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,sBAAsB;EACtB,YAAY;EACZ,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,YAAY;EACZ,cAAc;AAChB;;AAEA;EACE,kBAAkB;EAClB,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;EAChB,WAAW;AACb","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\n.lead {\n  font-size: 2.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-left: 50px;\n  margin-top: 50px;\n  margin-bottom: 50px;\n}\n\n.score {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-left: 50px;\n}\n\n.refresh {\n  display: flex;\n  justify-content: center;\n}\n\n.refresh h2 {\n  font-size: 3rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-right: 50px;\n}\n\n.refresh button {\n  cursor: pointer;\n  border-radius: 5px;\n}\n\n.btn {\n  padding: 0 40px;\n  margin: 7px;\n}\n\n.list-item {\n  display: flex;\n  flex-direction: column;\n  padding: 10px 2px;\n  border: 1px solid #000;\n  margin: 20px;\n  list-style: none;\n  border-radius: 5px;\n}\n\n.list-item ul {\n  list-style: none;\n  margin-left: 2px;\n}\n\n.list-item li {\n  margin: 10px 0;\n  font-size: 1.2rem;\n  padding: 5px;\n}\n\n.list-item li:nth-child(even) {\n  background-color: #8f8c8c;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 50px 200px;\n}\n\n.add-score h2 {\n  font-size: 2.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-bottom: 20px;\n}\n\n.add-score input {\n  font-size: 0.8rem;\n  font-weight: 300;\n  line-height: 1.5;\n  padding: 8px;\n  border-radius: 5px;\n  width: 300px;\n  margin: 20px 0;\n}\n\n.btnsubmit {\n  padding: 10px 20px;\n  float: right;\n  border-radius: 5px;\n  margin-top: 20px;\n  width: 50px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #3f3a3a;\n  font-family: 'Roboto', sans-serif;\n}\n\n.lead {\n  font-size: 3.5rem;\n  font-weight: 700;\n  line-height: 1.5;\n  margin-left: 50px;\n  margin-top: 50px;\n  margin-bottom: 50px;\n}\n.lead h1 {\n  color: rgb(146, 223, 39);\n  box-shadow: 0 0 10px rgb(201, 218, 12);\n  width: 750px;\n}\n.score {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 150px;\n}\n\n.refresh {\n  display: flex;\n  justify-content: center;\n  width: 850px;\n}\n\n.refresh h2 {\n  font-size: 3.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-right: 50px;\n}\n\n.refresh button {\n  cursor: pointer;\n  border-radius: 5px;\n}\n\n.btn {\n  padding: 0 40px;\n  margin: 7px;\n  border-radius: 5px;\n  font-size: 3rem;\n}\n\n.list-item {\n  display: flex;\n  flex-direction: column;\n  padding: 10px 2px;\n  border: 1px solid #000;\n  margin: 20px;\n  list-style: none;\n  border-radius: 5px;\n}\n\n.list-item ul {\n  list-style: none;\n  margin-left: 2px;\n}\n\n.list-item li {\n  margin: 10px 0;\n  font-size: 2.2rem;\n  padding: 5px;\n}\n\n.list-item li:nth-child(even) {\n  background-color: #8f8c8c;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 50px 200px;\n}\n\n.add-score h2 {\n  font-size: 3.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-bottom: 20px;\n}\n\n.add-score input {\n  font-size: 1.8rem;\n  font-weight: 300;\n  line-height: 1.5;\n  padding: 8px;\n  border-radius: 5px;\n  width: 450px;\n  margin: 20px 0;\n}\n\n.btnsubmit {\n  float: right;\n  border-radius: 5px;\n  margin-top: 20px;\n}\n\nform .btnsubmit {\n  padding: 10px 20px;\n  width: 120px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,yBAAyB;EACzB,iCAAiC;AACnC;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;AACA;EACE,wBAAwB;EACxB,sCAAsC;EACtC,YAAY;AACd;AACA;EACE,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,kBAAkB;AACpB;;AAEA;EACE,eAAe;EACf,WAAW;EACX,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,sBAAsB;EACtB,YAAY;EACZ,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;EAClB,YAAY;EACZ,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,YAAY;AACd","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #3f3a3a;\n  font-family: 'Roboto', sans-serif;\n}\n\n.lead {\n  font-size: 3.5rem;\n  font-weight: 700;\n  line-height: 1.5;\n  margin-left: 50px;\n  margin-top: 50px;\n  margin-bottom: 50px;\n}\n.lead h1 {\n  color: rgb(146, 223, 39);\n  box-shadow: 0 0 10px rgb(201, 218, 12);\n  width: 750px;\n}\n.score {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 150px;\n}\n\n.refresh {\n  display: flex;\n  justify-content: center;\n  width: 850px;\n}\n\n.refresh h2 {\n  font-size: 3.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-right: 50px;\n}\n\n.refresh button {\n  cursor: pointer;\n  border-radius: 5px;\n}\n\n.btn {\n  padding: 0 40px;\n  margin: 7px;\n  border-radius: 5px;\n  font-size: 3rem;\n}\n\n.list-item {\n  display: flex;\n  flex-direction: column;\n  padding: 10px 2px;\n  border: 1px solid #000;\n  margin: 20px;\n  list-style: none;\n  border-radius: 5px;\n}\n\n.list-item ul {\n  list-style: none;\n  margin-left: 2px;\n}\n\n.list-item li {\n  margin: 10px 0;\n  font-size: 2.2rem;\n  padding: 5px;\n}\n\n.list-item li:nth-child(even) {\n  background-color: #8f8c8c;\n}\n\n.add-score {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 50px 200px;\n}\n\n.add-score h2 {\n  font-size: 3.5rem;\n  font-weight: 300;\n  line-height: 1.5;\n  margin-bottom: 20px;\n}\n\n.add-score input {\n  font-size: 1.8rem;\n  font-weight: 300;\n  line-height: 1.5;\n  padding: 8px;\n  border-radius: 5px;\n  width: 450px;\n  margin: 20px 0;\n}\n\n.btnsubmit {\n  float: right;\n  border-radius: 5px;\n  margin-top: 20px;\n}\n\nform .btnsubmit {\n  padding: 10px 20px;\n  width: 120px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -721,12 +719,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 var refresh = document.getElementById('btn');
 var name = document.getElementById('Name');
 var score = document.getElementById('Score');
-console.log(refresh);
 var submit = document.querySelector('.btnsubmit');
+
+// eslint-disable-next-line operator-linebreak
 var url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/4VEGe50cX5o9oalxLylU/scores/';
 var display = function display(data) {
   var list = document.querySelector('.list-item');
   if (Array.isArray(data) && list) {
+    list.innerHTML = '';
     data.forEach(function (item) {
       var li = document.createElement('li');
       li.innerHTML = "".concat(item.user, ": ").concat(item.score);
@@ -735,7 +735,7 @@ var display = function display(data) {
   }
 };
 refresh.addEventListener('click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-  var data;
+  var data, container;
   return _regeneratorRuntime().wrap(function _callee$(_context) {
     while (1) switch (_context.prev = _context.next) {
       case 0:
@@ -743,9 +743,13 @@ refresh.addEventListener('click', /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_
         return (0,_gameServer_serverget_js__WEBPACK_IMPORTED_MODULE_1__["default"])(url);
       case 2:
         data = _context.sent;
-        console.log(data);
+        // Clear the contents of the element where the data is being displayed
+        container = document.querySelector('.data-container');
+        if (container) {
+          container.innerHTML = '';
+        }
         display(data);
-      case 5:
+      case 6:
       case "end":
         return _context.stop();
     }
@@ -760,13 +764,24 @@ submit.addEventListener('click', function () {
   name.value = '';
   score.value = '';
 });
-
-// window.onload = async () => {
-//   const data = await getData(url);
-//   display(data);
-// };
+window.onload = /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+  var data;
+  return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+    while (1) switch (_context2.prev = _context2.next) {
+      case 0:
+        _context2.next = 2;
+        return (0,_gameServer_serverget_js__WEBPACK_IMPORTED_MODULE_1__["default"])(url);
+      case 2:
+        data = _context2.sent;
+        display(data);
+      case 4:
+      case "end":
+        return _context2.stop();
+    }
+  }, _callee2);
+}));
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle896d342cec7abd04d152.js.map
+//# sourceMappingURL=bundle3714bfa66253cf4089b3.js.map

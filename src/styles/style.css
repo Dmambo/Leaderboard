@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url('../assests/background.png');
+  font-family: 'Roboto', sans-serif;
+}
+
 .lead {
   font-size: 3.5rem;
   font-weight: 700;
@@ -12,12 +17,17 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
+.lead h1 {
+  color: rgb(146, 223, 39);
+  box-shadow: 0 0 10px rgb(201, 218, 12);
+  width: 750px;
+}
 .score {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 150px;
+  color: white;
 }
 
 .refresh {
@@ -43,6 +53,10 @@
   margin: 7px;
   border-radius: 5px;
   font-size: 3rem;
+  background-color: rgb(146, 223, 39);
+}
+.btn:hover {
+  background-color: rgb(201, 218, 12);
 }
 
 .list-item {
@@ -53,17 +67,20 @@
   margin: 20px;
   list-style: none;
   border-radius: 5px;
+  box-shadow: coral;
 }
 
 .list-item ul {
   list-style: none;
   margin-left: 2px;
+  background-color: brown;
 }
 
 .list-item li {
   margin: 10px 0;
   font-size: 2.2rem;
   padding: 5px;
+  color: white;
 }
 
 .list-item li:nth-child(even) {
@@ -99,6 +116,12 @@
   float: right;
   border-radius: 5px;
   margin-top: 20px;
+  cursor: pointer;
+  background-color: rgb(146, 223, 39);
+}
+
+.btnsubmit:hover {
+  background-color: rgb(201, 218, 12);
 }
 
 form .btnsubmit {
