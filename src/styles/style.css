@@ -17,11 +17,13 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .lead h1 {
   color: rgb(146, 223, 39);
   box-shadow: 0 0 10px rgb(201, 218, 12);
   width: 750px;
 }
+
 .score {
   display: flex;
   justify-content: space-between;
@@ -55,6 +57,7 @@ body {
   font-size: 3rem;
   background-color: rgb(146, 223, 39);
 }
+
 .btn:hover {
   background-color: rgb(201, 218, 12);
 }
@@ -120,11 +123,11 @@ body {
   background-color: rgb(146, 223, 39);
 }
 
-.btnsubmit:hover {
-  background-color: rgb(201, 218, 12);
-}
-
 form .btnsubmit {
   padding: 10px 20px;
   width: 120px;
+}
+
+.btnsubmit:hover {
+  background-color: rgb(201, 218, 12);
 }
